@@ -8,4 +8,4 @@ Discrete Mathematics Experiments in NJUPT
 > use Truth-table to get the Prime Disjunctive normal formula and Prime Conjunctive normal formula
 
 ##### ToDo
-- [ ] a c++ version
+- [x] ~~a c++ version~~
