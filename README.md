@@ -13,4 +13,5 @@ Discrete Mathematics Experiments in NJUPT
 ## Experiment 2
 
 > judge if a relation is reflexive, antireflexive, symmetric, antisymmetric or transitive.
+
 *There may not be a c++ version*
