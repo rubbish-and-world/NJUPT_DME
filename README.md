@@ -5,7 +5,12 @@ Discrete Mathematics Experiments in NJUPT
 
 ## Experiment 1
 
-> use Truth-table to get the Prime Disjunctive normal formula and Prime Conjunctive normal formula
+> use Truth-table to get the Prime Disjunctive normal formula and Prime Conjunctive normal formula.
 
 ##### ToDo
 - [x] ~~a c++ version~~
+
+## Experiment 2
+
+> judge if a relation is reflexive, antireflexive, symmetric, antisymmetric or transitive.
+*There may not be a c++ version*
