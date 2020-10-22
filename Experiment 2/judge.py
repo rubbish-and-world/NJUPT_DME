@@ -36,7 +36,7 @@ def antisymmetric(matrix):
     return np.logical_or(np.identity(len(matrix)) , np.logical_xor(matrix , np.transpose(matrix))).all()
 
 def transitive(matrix):
-    return (np.logical_or(np.linalg.matrix_power(matrix,2) , matrix) == matrix).all()
+    return (np.logical_or(matrix , np.logical_not(np.linalg.matrix_power(matrix,2)))).all()
 
 matrix = get_input()
 print("The attributes ascribed to ralation R : ",end='')
