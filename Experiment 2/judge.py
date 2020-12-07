@@ -6,12 +6,12 @@ def get_input():
         l = len(elements)
         m = np.zeros((l,l),dtype=int)
         print(r"Enter the elements of relation R , (in the format of [a,b]\n , end with new line):")
-        ls = input().lstrip('[').rstrip(']').split(',')
+        ls = input().lstrip('[').rstrip(']\n').split(',')
         while ls != ['']:
             first = elements.index(ls[0])
             second = elements.index(ls[1])
             m[first][second] = 1
-            ls = input().lstrip('[').rstrip(']').split(',')
+            ls = input().lstrip('[').rstrip(']\n').split(',')
     except:
         print("invalid input")
         exit(0)
