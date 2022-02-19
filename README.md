@@ -15,3 +15,7 @@ Discrete Mathematics Experiments in NJUPT
 > judge if a relation is reflexive, antireflexive, symmetric, antisymmetric or transitive.
 
 *There may not be a c++ version*
+
+-----
+
+![cppversion](https://github.com/rubbish-and-world/NJUPT_DME/blob/master/cppversion.jpg)
